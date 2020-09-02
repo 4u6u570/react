@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Cargat React -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <title>ReactApp</title>
+</head>
+<body>
+    
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        const nombre = 'Goku';
+        const divRoot = document.querySelector('#root');
+        const h1Tag = <h1>Hola soy { nombre }</h1>;
+        
+        ReactDOM.render( h1Tag, divRoot );
+
+    </script>
+
+    <!-- <script src="../02-intro-javascript/src/bases/03-objetos-literales.js"></script> -->
+    <script src="../02-intro-javascript/src/bases/04-arreglos.js"></script>
+
+</body>
+</html>
