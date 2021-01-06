@@ -1,5 +1,5 @@
 // import { heroes } from '../data/heroes';
-import heroes, { owners } from './data/heroes.js';
+import heroes, { owners } from '../data/heroes';
 // import
 
 console.log( heroes );
